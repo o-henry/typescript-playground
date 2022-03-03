@@ -1,5 +1,5 @@
 {
-  "name": "DDD",
+  "name": "node-playground",
   "version": "1.0.0",
   "main": "dist/app.js",
   "scripts": {
