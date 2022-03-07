@@ -2,11 +2,16 @@
   "name": "node-playground",
   "version": "1.0.0",
   "main": "dist/app.js",
+  "private": true,
+  "workspaces": ["packages/*"],
   "scripts": {
-    "start": "tsc && node dist/app.js",
-    "start:dev": "nodemon --exec sucrase-node src/app.ts",
-    "lint": "eslint . --ext .ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bootstrap": "lerna bootstrap --hoist",
+    "start": "lerna run start --stream",
+    "watch": "lerna run watch --stream",
+    "clean": "lerna run clean",
+    "build": "lerna run --parallel build",
+    "test": "lerna run test",
+    "lint": "eslint . --ext .ts"
   },
   "repository": "https://github.com/o-henry/DDD.git",
   "author": "henry <cksgod16@gmail.com>",
@@ -21,6 +26,7 @@
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "eslint": "^8.10.0",
+    "lerna": "^3.22.1",
     "nodemon": "^2.0.15",
     "sucrase": "^3.20.3",
     "ts-node": "^10.6.0",

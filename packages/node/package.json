@@ -1,0 +1,41 @@
+{
+  "name": "@playground/node",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "henry <cksgod16@gmail.com>",
+  "homepage": "https://github.com/o-henry/node-playground#readme",
+  "license": "ISC",
+  "main": "dist/index",
+  "private": true,
+  "directories": {
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-henry/node-playground.git"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "start": "nodemon --exec sucrase-node src/index.ts",
+    "build": "tsc -b",
+    "clean": "rimraf -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json",
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/o-henry/node-playground/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "rimraf": "~3.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "~4.6.0"
+  },
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
