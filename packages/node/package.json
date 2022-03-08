@@ -20,7 +20,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "start": "nodemon --exec sucrase-node src/index.js",
+    "start:dev": "nodemon --exec sucrase-node src/index.js",
     "build": "tsc -b",
     "clean": "rimraf -rf ./dist",
     "test": "jest"

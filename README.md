@@ -1,7 +1,7 @@
 <p align="center">
   <samp>
     <br>
-        <kbd>NODE-PLAYGROUND</kbd>
+        <kbd>PLAYGROUND</kbd>
     </br>
   </samp>
 </p>
