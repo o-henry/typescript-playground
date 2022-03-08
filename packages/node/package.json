@@ -20,10 +20,9 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "start": "nodemon --exec sucrase-node src/index.ts",
+    "start": "nodemon --exec sucrase-node src/index.js",
     "build": "tsc -b",
     "clean": "rimraf -rf ./dist",
-    "compile": "tsc -p tsconfig.build.json",
     "test": "jest"
   },
   "bugs": {
@@ -31,9 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
-    "rimraf": "~3.0.2",
-    "ts-node": "^10.7.0",
-    "typescript": "~4.6.0"
+    "rimraf": "~3.0.2"
   },
   "dependencies": {
     "http": "^0.0.1-security"
