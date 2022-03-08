@@ -12,7 +12,7 @@
     "lint": "eslint . --ext .ts"
   },
   "repository": "https://github.com/o-henry/DDD.git",
-  "author": "henry <cksgod16@gmail.com>",
+  "author": "henry <c.henry.9209@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "ioredis": "^4.28.5"

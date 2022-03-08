@@ -2,7 +2,7 @@
   "name": "@playground/node",
   "version": "0.0.0",
   "description": "> TODO: description",
-  "author": "henry <cksgod16@gmail.com>",
+  "author": "henry <c.henry.9209@gmail.com>",
   "homepage": "https://github.com/o-henry/node-playground#readme",
   "license": "ISC",
   "main": "dist/main",
@@ -29,12 +29,13 @@
     "url": "https://github.com/o-henry/node-playground/issues"
   },
   "devDependencies": {
+    "@types/express": "^4.17.13",
     "@types/node": "^17.0.21",
-    "rimraf": "~3.0.2",
-    "@types/express": "^4.17.13"
+    "rimraf": "~3.0.2"
   },
   "dependencies": {
-    "http": "^0.0.1-security",
-    "express": "^4.17.3"
+    "@faker-js/faker": "^6.0.0-beta.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
   }
 }
