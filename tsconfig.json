@@ -8,7 +8,11 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es6",
+    "esModuleInterop": true,
     "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strict": true,
     "lib": [
       "es6"
     ]

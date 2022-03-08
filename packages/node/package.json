@@ -5,7 +5,7 @@
   "author": "henry <cksgod16@gmail.com>",
   "homepage": "https://github.com/o-henry/node-playground#readme",
   "license": "ISC",
-  "main": "dist/index",
+  "main": "dist/main",
   "private": true,
   "directories": {
     "dist": "dist",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "start:dev": "nodemon --exec sucrase-node src/index.js",
+    "start:dev": "nodemon --exec sucrase-node src/main.ts",
     "build": "tsc -b",
     "clean": "rimraf -rf ./dist",
     "test": "jest"
@@ -30,9 +30,11 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
-    "rimraf": "~3.0.2"
+    "rimraf": "~3.0.2",
+    "@types/express": "^4.17.13"
   },
   "dependencies": {
-    "http": "^0.0.1-security"
+    "http": "^0.0.1-security",
+    "express": "^4.17.3"
   }
 }
