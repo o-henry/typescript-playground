@@ -1,0 +1,19 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --transpile-only --no-notify --exit-child src/index.ts",
+    "generate": "ts-node --transpile-only src/schema.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  },
+  "dependencies": {
+    "apollo-server": "^3.1.1",
+    "graphql": "^15.5.1",
+    "nexus": "^1.1.0"
+  }
+}
