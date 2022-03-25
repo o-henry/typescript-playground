@@ -15,6 +15,7 @@
   "author": "henry <c.henry.9209@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.3",
     "ioredis": "^4.28.5"
   },
   "devDependencies": {
