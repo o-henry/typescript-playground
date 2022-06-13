@@ -11,3 +11,15 @@
 </div>
 
 ---
+
+```
+· docker-compose up : running kafka
+```
+
+---
+
+<sup>
+    <a href="https://hub.docker.com/r/bitnami/kafka/">
+        docker 
+    </a>
+</sup>
